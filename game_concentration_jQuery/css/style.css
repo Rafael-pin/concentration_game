@@ -1,0 +1,49 @@
+.container {
+  margin: auto;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to bottom right, cyan, white);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+h5 {
+  margin-top: 20px;
+}
+
+.ingame-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.btn {a lol
+  
+  margin-top: 30px;
+}
+
+img {
+  height: 100px;
+  width: 80px;
+  margin: 0px 5px 0px 5px;
+  background-color: white;
+  border: 2px solid;
+}

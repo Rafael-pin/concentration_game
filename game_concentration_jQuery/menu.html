@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Concentration</title>
+    <script src="../jQuery/jquery.min.js"> </script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 align="center">Welcome to Concentration</h1>
+      <form class="form-group" action="game.html" method="get">
+        <label for="name-input">Type your name:</label>
+        <input class="form-control" type="text" name="name" placeholder="Name">
+        <label for="pieces">Select the number of pieces</label>
+        <select class="form-control" name="pieces">
+          <option value="8">8</option>
+          <option value="12">12</option>
+          <option value="16">16</option>
+          <option value="20">20</option>
+        </select>
+        <button class="btn btn-light" type="submit">Start!</button>
+      </form>
+    </div>
+  </body>
+</html>
