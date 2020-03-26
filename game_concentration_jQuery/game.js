@@ -66,6 +66,7 @@ function turnPiece() {
       $(this).attr('src' , images[id]);
       if (lastTurnedPieceId === id) {
         makePoint(id);
+        finishGame();
       }
       lastTurnedPieceId = id;
     } else {
@@ -101,7 +102,6 @@ function makePoint(id) {
   }
   lastTurnedPieceId = -1;
   turnedPieces = 0;
-  finishGame();
 }
 
 function finishGame() {
